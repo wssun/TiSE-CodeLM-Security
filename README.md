@@ -198,10 +198,10 @@ Approaches to counter adversarial attacks include:
 ## Citation
 If you find this repository useful for your work, please include the following citation:
 ```
-@article{xxx,
-  title={Security of Language Models for Code},
-  author={xxx and xxx and xxx and xxx and xxx},
-  journal={arXiv preprint arXiv:xxxxx},
+@article{2024-Survey-of-CodeLMs,
+  title={Security of Language Models for Code: A Systematic Literature Review},
+  author={Yuchen Chen and Weisong Sun and Chunrong Fang and Zhenpeng Chen and Yifei Ge and Tingxu Han and Quanjun Zhang and Yang Liu and Zhenyu Chen and Baowen Xu},
+  journal={arXiv preprint arXiv:2410.15631},
   year={2024}
 }
 ```
