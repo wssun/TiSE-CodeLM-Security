@@ -50,7 +50,7 @@ To address a systematic review of CodeLM security, this repository organizes the
 
 ## 📃Survey
 [//]: # (The threats discussed in the survey are divided into three main categories:)
-The survey analyzes security threats to LM4Code, categorizing existing attack types such as backdoor and adversarial attacks, and explores their implications for code intelligence tasks.
+The survey analyzes security threats to CodeLMs, categorizing existing attack types such as backdoor and adversarial attacks, and explores their implications for code intelligence tasks.
 
 | Year | Conf./Jour. | Paper                                                                                                                                                                   |   
 |------|-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -62,7 +62,7 @@ The survey analyzes security threats to LM4Code, categorizing existing attack ty
 
 ## ⚔Security Threats
 [//]: # (The threats discussed in the survey are divided into three main categories:)
-According to the document, security threats in LM4Code are mainly classified into two categories: backdoor attacks and adversarial attacks. Backdoor attacks occur during the training phase, where attackers implant hidden backdoors in the model, allowing it to function normally on benign inputs but behave maliciously when triggered by specific patterns. In contrast, adversarial attacks happen during the testing phase, where carefully crafted perturbations are added to the input, causing the model to make incorrect predictions with high confidence while remaining undetectable to humans.
+According to the document, security threats in CodeLMs are mainly classified into two categories: backdoor attacks and adversarial attacks. Backdoor attacks occur during the training phase, where attackers implant hidden backdoors in the model, allowing it to function normally on benign inputs but behave maliciously when triggered by specific patterns. In contrast, adversarial attacks happen during the testing phase, where carefully crafted perturbations are added to the input, causing the model to make incorrect predictions with high confidence while remaining undetectable to humans.
 
 <img src="./figures/overview.png" alt="An overview of attacks in LM4Code." width="600"/>
 
