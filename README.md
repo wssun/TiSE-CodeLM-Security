@@ -8,7 +8,7 @@ This repository provides a summary of recent advancements in the security landsc
 [//]: # (The bolded article is published by our Nanjing University ISE Lab.)
 
 [![arXiv](https://img.shields.io/badge/arXiv-2410.15631-b31b1b.svg)](https://arxiv.org/abs/2410.15631)
-![GitHub stars](https://img.shields.io/github/stars/wssun/xxxxx?color=yellow&label=Stars)
+![GitHub stars](https://img.shields.io/github/stars/wssun/TiSE-LM4Code-Security?color=yellow&label=Stars)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 [//]: # ([![Awesome]&#40;./figures/logo.svg&#41;]&#40;https://github.com/xxxx&#41;)
