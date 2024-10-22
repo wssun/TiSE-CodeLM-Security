@@ -15,10 +15,10 @@ This repository provides a summary of recent advancements in the security landsc
 
 ## Overview
 
-Language Models for Code (LM4Code) are advanced deep learning models that excel in programming language understanding and generation.
-LM4Code has achieved impressive results across various code intelligence tasks, such as code generation, code summarization, vulnerability/bug detection, and so on. 
-However, with the growing use of LM4Code in sensitive applications, they have become a prime target for security attacks, which exploit the vulnerabilities inherent in machine learning models. 
-This repository organizes the current knowledge on **Security Threats** and **Defense Strategies** for LM4Code.
+Language Models for Code (CodeLMs) have significantly advanced code-related tasks, they are excel in programming language understanding and generation.
+Despite their success, CodeLMs are prone to security vulnerabilities, which have become a growing concern.
+While existing research has explored various attacks and defenses for CodeLMs. 
+To address a systematic review of CodeLM security, this repository organizes the current knowledge on **Security Threats** and **Defense Strategies**.
 
 ## Table of Contents
 
@@ -52,11 +52,12 @@ This repository organizes the current knowledge on **Security Threats** and **De
 [//]: # (The threats discussed in the survey are divided into three main categories:)
 The survey analyzes security threats to LM4Code, categorizing existing attack types such as backdoor and adversarial attacks, and explores their implications for code intelligence tasks.
 
-| Year | Conf./Jour. | Paper                                                                                                                                                                  |   
-|------|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2024 | 《软件学报》  | [深度代码模型安全综述](./papers_cn/2024-软件学报-深度代码模型安全综述.pdf)   🚩                                                                                                                |
+| Year | Conf./Jour. | Paper                                                                                                                                                                   |   
+|------|-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2024 | CoRR        | [Security of Language Models for Code: A Systematic Literature Review](./papers_en/2024-CoRR-Security_of_CodeLMs.pdf)   🚩                                                       |
+| 2024 | 《软件学报》      | [深度代码模型安全综述](./papers_cn/2024-软件学报-深度代码模型安全综述.pdf)   🚩                                                                                                                 |
 | 2024 | CoRR        | [Robustness, Security, Privacy, Explainability, Efficiency, and Usability of Large Language Models for Code.](./papers_en/2024-CoRR-Large_Language_Models_for_Code.pdf) |
-| 2023 | CoRR        | [A Survey of Trojans in Neural Models of Source Code: Taxonomy and Techniques.](./papers_en/2023-CoRR-Taxonomy_and_Techniques.pdf)                                     |
+| 2023 | CoRR        | [A Survey of Trojans in Neural Models of Source Code: Taxonomy and Techniques.](./papers_en/2023-CoRR-Taxonomy_and_Techniques.pdf)                                      |
 
 
 ## ⚔Security Threats
@@ -201,7 +202,7 @@ Approaches to counter adversarial attacks include:
 ## Citation
 If you find this repository useful for your work, please include the following citation:
 ```
-@article{2024-Survey-of-CodeLMs,
+@article{2024-Security-of-CodeLMs,
   title={Security of Language Models for Code: A Systematic Literature Review},
   author={Yuchen Chen and Weisong Sun and Chunrong Fang and Zhenpeng Chen and Yifei Ge and Tingxu Han and Quanjun Zhang and Yang Liu and Zhenyu Chen and Baowen Xu},
   journal={arXiv preprint arXiv:2410.15631},
