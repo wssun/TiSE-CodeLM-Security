@@ -64,7 +64,7 @@ The survey analyzes security threats to CodeLMs, categorizing existing attack ty
 [//]: # (The threats discussed in the survey are divided into three main categories:)
 According to the document, security threats in CodeLMs are mainly classified into two categories: backdoor attacks and adversarial attacks. Backdoor attacks occur during the training phase, where attackers implant hidden backdoors in the model, allowing it to function normally on benign inputs but behave maliciously when triggered by specific patterns. In contrast, adversarial attacks happen during the testing phase, where carefully crafted perturbations are added to the input, causing the model to make incorrect predictions with high confidence while remaining undetectable to humans.
 
-<img src="./figures/overview.pdf" alt="An overview of attacks in CodeLMs." width="600"/>
+<img src="./figures/overview.png" alt="An overview of attacks in CodeLMs." width="600"/>
 
 ### Backdoor Attacks
 Backdoor attacks inject malicious behavior into the model during training, allowing the attacker to trigger it at inference time using specific triggers:
